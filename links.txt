@@ -1,6 +1,20 @@
 links.txt
-Created Wed Aug 14 10:58:14 AKDT 2019
-Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+Created Wed Aug 14 09:38:00 AKDT 2019
+by Raymond E. Marcil <ray.marcil@alaska.gov>
 
 
-Python EPEL (Extra Packages for Enterprise Linux) related links
+Links
+=====
+EPEL FAQ
+https://fedoraproject.org/wiki/EPEL/FAQ
+
+EPEL WIKI
+https://fedoraproject.org/wiki/EPEL
+
+Extra Packages for Enterprise Linux
+https://www.liquidweb.com/kb/enable-epel-repository/
+
+How to enable EPEL repository?
+Posted on February 24, 2017 by David Singer | Updated: May 29, 2019
+Dependency of pip (“Pip Installs Packages” or “Pip Installs Python“)
+https://www.liquidweb.com/kb/enable-epel-repository/

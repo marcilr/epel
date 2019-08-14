@@ -1,12 +1,47 @@
 epel.txt
-Created Wed Aug 14 10:56:46 AKDT 2019
-Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+Created Wed Aug 14 09:37:19 AKDT 2019
+by Raymond E. Marcil <ray.marcil@alaska.gov>
 
 
-Python EPEL (Extra Packages for Enterprise Linux)
-Dependency of Selenium for web page testing
+EPEL (Extra Packages for Enterprise Linux)
 
+
+"The EPEL repository is managed by the EPEL group, which is a
+Special Interest Group within the Fedora Project.  The ‘EPEL’
+part is an abbreviation that stands for Extra Packages for
+Enterprise Linux. The EPEL group creates, maintains and manages
+a high quality set of additional packages.  These packages may
+be software not included in the core repository, or sometimes
+updates which haven’t been provided yet.
+
+The EPEL repository can be used with the following Linux Distributions:
+o Red Hat Enterprise Linux (RHEL)
+o CentOS
+o Scientific Linux
+o Oracle Linux"
+--How to enable EPEL repository?
+  https://www.liquidweb.com/kb/enable-epel-repository/
+
+
+Installation of EPEL
+====================
+Get and install EPEL:
+  wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
+  yum install ./epel-release-latest-*.noarch.rpm
+
+--www.liquidweb.com/kb/enable-epel-repository/
+
+
+Filelist
+========
+epel-release-latest-6.noarch.rpm
+  Extra Packages for Enterprise Linux, RHEL 6/CentOS 6/etc:
+  wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
 
 
 Links
 =====
+How to enable EPEL repository?
+Posted on February 24, 2017 by David Singer | Updated: May 29, 2019
+Extra Packages for Enterprise Linux
+https://www.liquidweb.com/kb/enable-epel-repository/
