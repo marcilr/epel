@@ -1,13 +1,21 @@
 README
-Created Wed Aug 14 10:57:31 AKDT 2019
-Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+Created Wed Aug 14 09:36:55 AKDT 2019
+by Raymond E. Marcil <ray.marcil@alaska.gov>
+
 
 
 Filelist
 ========
 epel.txt
-  Python EPEL (Extra Packages for Enterprise Linux)
-  Dependency of Selenium for web page testing
+  Extra Packages for Enterprise Linux
+  https://www.liquidweb.com/kb/enable-epel-repository/
+
+epel-release-latest-6.noarch.rpm
+  Extra Packages for Enterprise Linux, RHEL 6/CentOS 6/etc:
+  wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
+
+INSTALL
+  Installation of python EPEL (Extra Packages for Enterprise Linux) package
 
 links.txt
-  EPEL related links
+  EPELL related links
