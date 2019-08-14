@@ -1,0 +1,48 @@
+INSTALL
+Created Wed Aug 14 10:45:03 AKDT 2019
+by Raymond E. Marcil <ray.marcil@alaska.govm>
+
+
+Installation of python EPEL (Extra Packages for Enterprise Linux) package
+
+# yum install ./epel-release-latest-*.noarch.rpm
+Loaded plugins: product-id, refresh-packagekit, search-disabled-repos, subscription-
+              : manager
+Setting up Install Process
+Examining ./epel-release-latest-6.noarch.rpm: epel-release-6-8.noarch
+Marking ./epel-release-latest-6.noarch.rpm to be installed
+Resolving Dependencies
+--> Running transaction check
+---> Package epel-release.noarch 0:6-8 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+====================================================================================
+ Package           Arch        Version     Repository                          Size
+====================================================================================
+Installing:
+ epel-release      noarch      6-8         /epel-release-latest-6.noarch       22 k
+
+Transaction Summary
+====================================================================================
+Install       1 Package(s)
+
+Total size: 22 k
+Installed size: 22 k
+Is this ok [y/N]: y
+Downloading Packages:
+Running rpm_check_debug
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Installing : epel-release-6-8.noarch                                          1/1 
+  Verifying  : epel-release-6-8.noarch                                          1/1 
+
+Installed:
+  epel-release.noarch 0:6-8                                                         
+
+Complete!
+# 
+
+Looks good
